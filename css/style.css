@@ -79,7 +79,7 @@ margin-left:-1px
     
 }
 
-@media (min-width:767px) and (max-width:960px){
+@media (min-width:767px) and (max-width:960px) {
 header{
     margin: 1% 0;
 }
@@ -133,10 +133,12 @@ p{
 .i{
     background-image: url("https://via.placeholder.com/760x150");
 }
-.b,.c,.d{
+.b,.c{
     float: left;
 }
-
+.d{
+    float: right;
+}
 
  .e{
      /* float: left; */
@@ -173,6 +175,98 @@ footer{
 
 }
 
+/* @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
 
+    header{
+    margin: 1% 0;
+}
+h2{
+    
+    float: left;
+    color: #4e4e4e;
+    font-weight: bold;
+}
+
+p{
+    margin-left: 82px;
+    color: #4e4e4e;
+}
+.a{
+    width: 1024px;
+    height: 100px;
+    
+}
+.b{
+    width: 264px;
+    height: 600px;
+}
+.c,.d{
+    width: 444px;
+    height: 200px;
+}
+.e,.f,.g,.h{
+    width: 206px;
+    height: 250px;
+}
+.i{
+    width: 824px;
+    height: 150px;
+}
+
+
+
+.a{
+    background-image: url("https://via.placeholder.com/960x100");
+}
+.b{
+    background-image: url("https://via.placeholder.com/200x600");
+}
+.c,.d{
+    background-image: url("https://via.placeholder.com/380x200");
+}
+.e,.f,.g,.h{
+    background-image: url("https://via.placeholder.com/190x250");
+}
+.i{
+    background-image: url("https://via.placeholder.com/760x150");
+}
+.b,.c,.d{
+    float: left;
+}
+
+
+ .e{
+     
+    position: relative;
+    top: 200px;
+    left: 200px;
+    
+}
+.f{
+    position: relative;
+    top: -50px;
+    left: 390px;
+}
+.g{
+    position: relative;
+    top: -300px;
+    left: 580px;
+}
+.h{
+    position: relative;
+    top: -550px;
+    left: 770px;
+}
+.i{
+    position: relative;
+    top: -550px;
+    left: 200px;
+}
+footer{
+    float: left;
+}
+
+}
+ */
 
 
