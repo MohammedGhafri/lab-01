@@ -1,0 +1,24 @@
+@media (min-width: 480px) and (max-width: 767px){
+
+    header{
+        margin: 3% 0;
+    }
+    h2{
+        float: left;
+        color: #4e4e4e;
+        font-weight: bold;
+    }
+
+}
+
+@media (min-width:767px) and (max-width:960px) {
+    header{
+        margin: 1% 0;
+    }
+    h2{
+        /* display: none; */
+        float: left;
+        color: #4e4e4e;
+        font-weight: bold;
+    }
+}
