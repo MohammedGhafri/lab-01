@@ -11,8 +11,8 @@ boxes.forEach((item,idx)=>{
     let c=`url("https://via.placeholder.com/1/${b}")`;
 
 $(`.${item}`).css("background-image",c);})
-}else{// for the desktop view
-    
+}else {// for the desktop view
+    console.log("got you");
     $("#h2").text("desktop:");
     $("#p1").css("margin-left", "61px");
     $("#p1").text("768px - 960px");
@@ -24,3 +24,7 @@ $(`.${item}`).css("background-image",c);})
     $(`.${item}`).css("background-image",c);})
     
 }
+// else{
+//     $("#h2").text("Tablet view :");
+//     $("#p1").text("768px - 1024px");
+// }

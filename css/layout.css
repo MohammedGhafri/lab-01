@@ -1,0 +1,105 @@
+@media (min-width: 480px) and (max-width: 767px){
+    p{
+        margin-left: 82px;
+    }
+   
+    .a,.b ,.c ,.d{
+        width: 480px;
+        height: 75px;
+        
+    }
+    .e, .f ,.g ,.h{
+        width: 240px;
+        height: 250px;
+    }
+    .i{
+        clear: both;
+        width: 480px;
+        height: 80px;
+    }
+    .e{
+        float: left;
+        
+    }
+    .g{
+        clear: both;
+        float: left;
+    }
+    .f{
+        float: left;
+        display: inline-block;
+    }
+    .h{
+        float: left;
+    }
+    .f,.h{
+        /* border-left: none; */
+        margin-left:-1px
+            }
+}
+
+@media (min-width:767px) and (max-width:960px) {
+    p{
+        margin-left: 82px;
+        color: #4e4e4e;
+    }
+    .a{
+        width: 960px;
+        height: 100px;
+        
+    }
+    .b{
+        width: 200px;
+        height: 600px;
+    }
+    .c,.d{
+        width: 380px;
+        height: 200px;
+    }
+    .e,.f,.g,.h{
+        width: 190px;
+        height: 250px;
+    }
+    .i{
+        width: 760px;
+        height: 150px;
+    }
+    
+    .b,.c{
+        float: left;
+    }
+    .d{
+        float: right;
+    }
+    
+     .e{
+         /* float: left; */
+        position: relative;
+        top: 200px;
+        left: 200px;
+        
+    }
+    .f{
+        position: relative;
+        top: -50px;
+        left: 390px;
+    }
+    .g{
+        position: relative;
+        top: -300px;
+        left: 580px;
+    }
+    .h{
+        position: relative;
+        top: -550px;
+        left: 770px;
+    }
+    .i{
+        position: relative;
+        top: -550px;
+        left: 200px;
+    }
+    footer{
+        float: left;
+    }
+}
