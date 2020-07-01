@@ -11,7 +11,7 @@
 
 }
 
-@media (min-width:767px) and (max-width:960px) {
+@media screen and (min-width:767px) and (max-width:960px) {
     header{
         margin: 1% 0;
     }
@@ -21,4 +21,7 @@
         color: #4e4e4e;
         font-weight: bold;
     }
+}
+footer{
+    width: 100%;
 }
