@@ -138,3 +138,69 @@
         grid-template-columns: calc(100% * 200/960) calc(100% * 190/960) calc(100% * 190/960) calc(100% * 190/960) calc(100% * 190/960);
     }
 }
+
+
+@media (min-width:767px) and (max-width:1024px) {
+    p {
+        margin-left: calc(100% * 82/960);
+        color: #4e4e4e;
+    }
+    .a {
+        width: 100%;
+        height: 100px;
+    }
+    .b {
+        width: calc(100% * 200/960);
+        width: 100%;
+        height: 600px;
+    }
+    .c, .d {
+        width: 100%;
+        height: 200px;
+    }
+    .e, .f, .g, .h {
+        /* width: calc(100% * 190/960); */
+        /* width: 100%; */
+        height: 250px;
+    }
+    .i {
+        /* width: calc(100% * 760/960); */
+        /* width: 100%; */
+        /* width:760px; */
+        height: 150px;
+    }
+    .a {
+        grid-area: one;
+    }
+    .b {
+        grid-area: two;
+    }
+    .c {
+        grid-area: three;
+    }
+    .d {
+        grid-area: four;
+    }
+    .e {
+        grid-area: five;
+    }
+    .f {
+        grid-area: six;
+    }
+    .g {
+        grid-area: seven;
+    }
+    .h {
+        grid-area: eight;
+    }
+    .i{
+        /* display: grid; */
+        grid-area: nine;
+    }
+   
+    section{
+        display: grid;
+        grid-template-areas:'one one one one one''two three three four four''two five six seven eight''two nine nine nine nine' ;
+        grid-template-columns: calc(100% * 200/960) calc(100% * 190/960) calc(100% * 190/960) calc(100% * 190/960) calc(100% * 190/960);
+    }
+}
