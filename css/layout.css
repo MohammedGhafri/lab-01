@@ -1,111 +1,140 @@
-@media (min-width: 480px) and (max-width: 767px){
-    p{
+@media (min-width: 480px) and (max-width: 767px) {
+    p {
         margin-left: 82px;
     }
-   
-    .a,.b ,.c ,.d{
-        width: calc(100% * 480/767);
-        height: 75px;
+    .a {
+        grid-area: one;
+    }
+    .b {
+        grid-area: two;
+    }
+    .c {
+        grid-area: three;
+    }
+    .d {
+        grid-area: four;
+    }
+    .e {
+        grid-area: five;
+    }
+    .f {
+        grid-area: six;
+    }
+    .g {
+        grid-area: seven;
+    }
+    .h {
+        grid-area: eight;
+    }
+    .a, .b, .c, .d {
         
-    }
-    .e, .f ,.g ,.h{
-        width: calc(100% * 480/767);
-        height: 250px;
-    }
-    .i{
-        clear: both;
+        /* width: calc(100% * 480/767); */
         /* width: 480px; */
-        width: calc(100% * 480/767);
-
-        height: 80px;
+        height: 75px;
     }
-    .e{
-        float: left;
+    .b{
+        /* width: calc(100% * 480/767); */
+        height: 150px; 
+    }
+     .c, .d {
         
+        /* width: calc(100% * 480/767); */
+        height: 125px;
     }
-    .g{
-        clear: both;
-        float: left;
-    }
+    .e, .f, .g, .h {
+        /* width: calc(100% * 240/767); */
+       /* width: 50%; */
 
-    .f{
-        float: left;
-        display: inline-block;
+        height: 250px;
+      
     }
-    .h{
-        float: left;
+    .i {
+        
+        /* width: calc(100% * 480/767); */
+        width: 100%;
+        height: 80px;
+        grid-area: nine;
     }
-    .f,.h{
-        /* border-left: none; */
-        margin-left:-1px
-            }
+   
+    section {
+        /* width: 100%; */
+        display: grid;
+        /* grid-template-columns: 1fr 50px 1fr; */
+        grid-template-areas: 
+        'one one'
+        'two two'
+        'three three'
+        'four four'
+        'five six'
+        'seven eight'
+        'nine nine';
+        grid-template-columns:calc(100% * 240/767) calc(100% * 240/767);
+        padding:10px;
+        width: 100%;
+    }
 }
 
 @media (min-width:767px) and (max-width:960px) {
-    p{
+    p {
         margin-left: calc(100% * 82/960);
         color: #4e4e4e;
     }
-    .a{
+    .a {
         width: 100%;
         height: 100px;
-        
     }
-    .b{
+    .b {
         width: calc(100% * 200/960);
+        width: 100%;
         height: 600px;
     }
-    .c,.d{
-        width: calc(100% * 380/960);
+    .c, .d {
+        width: 100%;
         height: 200px;
     }
-    .e,.f,.g,.h{
-        width: calc(100% * 190/960);
+    .e, .f, .g, .h {
+        /* width: calc(100% * 190/960); */
+        /* width: 100%; */
         height: 250px;
     }
-    
-    .i{
-        width: calc(100% * 760/960);
+    .i {
+        /* width: calc(100% * 760/960); */
+        width: 100%;
         /* width:760px; */
-
         height: 150px;
     }
-    
-    .b,.c{
-        float: left;
+    .a {
+        grid-area: one;
     }
-    .d{
-        float: right;
+    .b {
+        grid-area: two;
     }
-    
-     .e{
-         /* float: left; */
-        position: relative;
-        top: 200px;
-        left: 200px;
-        
+    .c {
+        grid-area: three;
     }
-    .f{
-        position: relative;
-        top: -50px;
-        left: 390px;
+    .d {
+        grid-area: four;
     }
-    .g{
-        position: relative;
-        top: -300px;
-        left: 580px;
+    .e {
+        grid-area: five;
     }
-    .h{
-        position: relative;
-        top: -550px;
-        left: 770px;
+    .f {
+        grid-area: six;
+    }
+    .g {
+        grid-area: seven;
+    }
+    .h {
+        grid-area: eight;
     }
     .i{
-        position: relative;
-        top: -550px;
-        left: 200px;
+        /* display: grid; */
+        grid-area: nine;
     }
-    footer{
-        float: left;
+   
+    section{
+        display: grid;
+        grid-template-areas:'one one one one one''two three three four four''two five six seven eight''two nine nine nine nine' ;
+        grid-template-columns: calc(100% * 200/960) calc(100% * 190/960) calc(100% * 190/960) calc(100% * 190/960) calc(100% * 190/960);
     }
 }
