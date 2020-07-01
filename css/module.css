@@ -19,12 +19,12 @@
         border-top: none;
     }
     .e,.g{
-        border-right: none;
+        /* border-right: none; */
     }
 }
 
 
-@media (min-width:767px) and (max-width:960px) {
+@media screen and (min-width:767px) and (max-width:960px) {
     .a{
         background-image: url("https://via.placeholder.com/960x100");
     }
